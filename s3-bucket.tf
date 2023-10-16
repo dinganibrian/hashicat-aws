@@ -1,5 +1,5 @@
 module "s3-bucket" {
   source  = "app.terraform.io/dbnkala-hcc-isv/s3-bucket/aws"
-  version = "3.15.1"
+  version = "2.8.0"
   bucket_prefix = "${var.prefix}"
 }
